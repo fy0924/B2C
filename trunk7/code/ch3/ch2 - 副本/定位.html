@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            /*绝对定位 相对于浏览器的四个角定位 必须是父容器没有定位属性的情况下*/
+            /* position: absolute;
+           right: 10px;
+            top: 200; */
+            /* 固定定位 */
+            /* position:fixed;
+           right: 10px;
+            top: 200; */
+            /* 相对定位 */
+            .box {}
+            .out-box {
+                width: 400px;
+                height: 100px;
+                background-color: red;
+                margin: 100px auto;
+                /* 相对定位 */
+                position: relative;
+            }
+            .in-box {
+                width: 100px;
+                height: 200px;
+                background-color: green;
+                /* 绝对定位 */
+                position: absolute
+            }
+            .inner-box {
+                background-color: pink;
+                width: 200px;
+                height: 200px;
+                /* z-index */
+                position: absolute;
+                z-index: 10;
+            }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="box1"></div> -->
+    <div class="out-box">
+        <div class="in-box"></div>
+        <div class="inner-box"></div>
+    </div>
+</body>
+
+</html>
