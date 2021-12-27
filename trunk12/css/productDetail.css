@@ -1,0 +1,219 @@
+.product-detail {
+    height: 500px;
+    margin: 50px auto;
+}
+
+.product-detail .left-box {
+    width: 340px;
+    height: 470px;
+    background-color: #fcfcfc;
+}
+
+.magnifier-container {
+    height: 380px !important;
+}
+
+.product-detail .right-box {
+    width: 800px;
+    height: 500px;
+    font-size: 20px;
+}
+
+.product-detail .right-box h3 {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.product-detail .right-box .writer {
+    color: red;
+}
+
+.product-detail .right-box .content {
+    height: 150px;
+    width: 780px;
+    background-color: rgb(240, 238, 238);
+    margin-top: 20px;
+}
+
+.product-detail .right-box .content .tleft-box p {
+    line-height: 30px;
+}
+
+.product-detail .right-box .content .tleft-box p>span {
+    color: red;
+}
+
+.product-detail .right-box .content .tleft-box p .price {
+    font-size: 30px;
+}
+
+.product-detail .right-box .content .tleft-box p {
+    line-height: 45px;
+}
+
+.product-detail .right-box .content .tleft-box img {
+    height: 30px;
+}
+
+.product-detail .right-box .content .tright-box {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(202, 204, 204);
+    text-align: center;
+    font-size: 10px!important;
+    padding-top: 8px;
+}
+
+.product-detail .right-box .content .tright-box :nth-child(2) {
+    color: #ff6700;
+}
+
+.product-detail .right-box .shop {
+    margin-top: 20px;
+}
+
+.product-detail .right-box .shop p span {
+    border: 2px solid #ff6700;
+    text-align: center;
+}
+
+.product-detail .right-box .shop .inp input {
+    width: 40px;
+    height: 20px;
+    border: 1px solid #ccc !important;
+}
+
+.product-detail .right-box .shop .inp {
+    margin-top: 60px;
+}
+
+.product-detail .right-box .shop .tips {
+    margin-top: 30px;
+    color: #ccc;
+}
+
+.product-detail .right-box .shop .inp .addshop {
+    width: 170px;
+    height: 40px;
+    background-color: #ff6700;
+    border: 1px solid #ccc !important;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* --------------人气单品---------------- */
+
+.item {
+    height: 270px;
+    width: 1200px;
+}
+
+.item .item-title {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 6px solid #ff6700;
+    background-color: #fff;
+    color: #ff6700;
+    font-size: 24px;
+    text-indent: 20px;
+    font-weight: 200;
+}
+
+.in-box-list {
+    width: 1200px;
+    height: 250px;
+}
+
+.in-box-list li {
+    width: 240px;
+    height: 250px;
+    float: left;
+    text-align: center;
+}
+
+.in-box-list li p {
+    text-align: left;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.in-box-list li p del {
+    color: #ccc;
+}
+
+.in-box-list li .text img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* -----------看了又看------------- */
+
+.goods {
+    width: 1200px;
+    height: 2400px;
+    margin-top: 50px;
+}
+
+.goods .left-box {
+    height: 2400px;
+    width: 250px;
+}
+
+.goods .left-box .goods-title {
+    height: 40px;
+    line-height: 40px;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 24px;
+    text-indent: 20px;
+    font-weight: 200;
+}
+
+.goods .left-box .in-box-list {
+    width: 248px;
+    height: 270px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.goods .left-box .in-box-list li {
+    width: 240px;
+    height: 250px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.goods .left-box .in-box-list li p {
+    text-align: left;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.goods .left-box .in-box-list li p del {
+    color: #ccc;
+}
+
+.goods .left-box .in-box-list li .text img {
+    width: 20px;
+    height: 20px;
+}
+
+.goods .right-box {
+    height: 2400px;
+    width: 940px;
+    margin-left: 10px;
+}
+
+.goods .right-box .goods-title {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 6px solid #ff6700;
+    background-color: #fff;
+    color: #ff6700;
+    font-size: 24px;
+    text-indent: 20px;
+    font-weight: 200;
+}
